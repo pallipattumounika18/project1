@@ -1,0 +1,176 @@
+\<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Ordering Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background: #e63946;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    .hero {
+      background: url('https://i.ibb.co/2Y4kZz3/pizza-bg.jpg') no-repeat center/cover;
+      text-align: center;
+      padding: 80px 20px;
+      color: white;
+    }
+    .menu {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .pizza-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .pizza {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .pizza img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    button {
+      background: #e63946;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #c91d2e;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>🍕 Fresh Pizza Corner</h1>
+    <nav>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Hot &amp; Fresh Pizzas Delivered to Your Doorstep</h2>
+    <p>Order your favorite pizza with just a few clicks!</p>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="pizza-list">
+      <div class="pizza">
+        <img src="p1.jpg" alt="Margherita">
+        <h3>Margherita</h3>
+        <p>Classic delight with mozzarella cheese</p>
+        <p><b>₹199</b></p>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza">
+        <img src="p2.jpg" alt="Farmhouse">
+        <h3>Farmhouse</h3>
+        <p>Loaded with veggies and cheese</p>
+        <p><b>₹299</b></p>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza">
+        <img src="p3.jpg" alt="Mushroom">
+        <h3>Mushroom</h3>
+        <p>Loaded with mushroom and cheese</p>
+        <p><b>₹499</b></p>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza">
+        <img src="p4.jpg" alt="Chicken">
+        <h3>Chicken</h3>
+        <p>Classic delight with Chicken</p>
+        <p><b>₹679</b></p>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza">
+        <img src="p5.jpg" alt="Baby Corn">
+        <h3>Baby Corn</h3>
+        <p>Veg babycorn with cheese slices</p>
+        <p><b>₹498</b></p>
+        <button>Order Now</button>
+      </div> 
+      <div class="pizza">
+        <img src="p6.jpg" alt="BBQ Chicken">
+        <h3>BBQ Chicken</h3>
+        <p>Spicy Barbeque sauce and chicken peppers</p>
+        <p><b>₹799</b></p>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza">
+        <img src="p7.jpg" alt="Cheese Classic Pizza">
+        <h3>Cheese Classic Pizza</h3>
+        <p>Single Cheese with flakes</p>
+        <p><b>₹310</b></p>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza">
+        <img src="p8.jpg" alt="Classic Veggie Pizza">
+        <h3>Classic Veggie Pizza</h3>
+        <p>Onion, Tomato and Capsicum</p>
+        <p><b>₹279</b></p>
+        <button>Order Now</button>
+      </div>
+      <div class="pizza">
+        <img src="p9.jpg" alt="Peppy Paneer">
+        <h3>Peppy Paneer</h3>
+        <p>Paneer chunks with spicy seasoning</p>
+        <p><b>₹349</b></p>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="menu">
+    <h2>Contact Us</h2>
+    <p>📍 Tirupati, Andhra Pradesh</p>
+    <p>📞 +91 7671848808</p>
+    <p>✉️ order@freshpizzacorner.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Fresh Pizza Corner | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
